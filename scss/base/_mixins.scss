@@ -1,0 +1,19 @@
+@mixin story-containers ($bk-color, $width, $margin, $padding, $br-top, $mr-top, $height: null) {
+  background-color: $bk-color;
+  width:  $width;
+  margin: $margin;
+  padding: $padding;
+  border-top: $br-top;
+  margin-top: $mr-top;
+  height: $height;
+}
+
+@mixin story-texts ($f-size, $f-color, $display, $text-width, $position, $margin-left, $margin-top) {
+  font-size: $f-size;
+  color: $f-color;
+  display: $display;
+  width: $text-width;
+  position: $position;
+  margin-left: $margin-left;
+  margin-top: $margin-top;
+}

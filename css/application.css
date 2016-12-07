@@ -1,0 +1,216 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: 'Merriweather', serif; }
+
+h1 {
+  color: #00456E;
+  padding: 0;
+  font-size: 22px; }
+
+span.main-story-excerpt-left {
+  color: #AC4F7B;
+  border-top: 1px dashed grey; }
+
+/* Pseudo-classes ------------------ */
+.nav-container {
+  width: 100vw;
+  height: 88px;
+  background-color: #005689; }
+
+.lower-nav {
+  width: 100%;
+  height: 36px;
+  background-color: #00456E;
+  margin-top: 52px;
+  position: absolute; }
+
+.headline {
+  width: 100%; }
+
+.main-container {
+  max-width: 1300px;
+  margin: auto;
+  padding: 10px;
+  background-color: white; }
+
+.main-story-container {
+  background-color: #F6F6F6;
+  width: 100%;
+  margin: auto;
+  font-size: 14px;
+  padding-bottom: 41px;
+  border-top: 1px solid #4BC6DF; }
+
+.main-story-image {
+  width: 100%;
+  background-image: url("../img/3701.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 0;
+  padding: 56.25% 0 0 0; }
+
+.second-story-image {
+  width: 130px;
+  height: 80px;
+  background-image: url("../img/2444.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: inline-block; }
+
+.second-story-container {
+  background-color: #F6F6F6;
+  width: 100%;
+  margin: auto;
+  padding: 5px;
+  border-top: 1px solid #4BC6DF;
+  margin-top: 12px; }
+
+.second-story-text {
+  font-size: 12px;
+  color: #5C5C5C;
+  display: inline-block;
+  width: 55%;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: -18px; }
+
+.third-story-image {
+  width: 130px;
+  height: 80px;
+  background-image: url("../img/2560.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: inline-block; }
+
+.third-story-container {
+  background-color: #F6F6F6;
+  width: 100%;
+  margin: auto;
+  padding: 5px;
+  border-top: 1px solid #4BC6DF;
+  margin-top: 12px; }
+
+.third-story-text {
+  font-size: 12px;
+  color: #5C5C5C;
+  display: inline-block;
+  width: 55%;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: -18px; }
+
+.fourth-story-image {
+  width: 130px;
+  height: 80px;
+  background-image: url("../img/2363.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: inline-block; }
+
+.fourth-story-container {
+  background-color: #F6F6F6;
+  width: 100%;
+  margin: auto;
+  padding: 5px;
+  border-top: 1px solid #4BC6DF;
+  margin-top: 12px; }
+
+.fourth-story-text {
+  font-size: 12px;
+  color: #5C5C5C;
+  display: inline-block;
+  width: 55%;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: -18px; }
+
+.fifth-story-container {
+  background-color: #F6F6F6;
+  width: 100%;
+  margin: auto;
+  padding: 5px;
+  border-top: 1px solid #4BC6DF;
+  margin-top: 12px;
+  height: 70px; }
+
+.fifth-story-text {
+  font-size: 12px;
+  color: #5C5C5C;
+  display: inline-block;
+  width: 90%;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: -18px; }
+
+.sixth-story-container {
+  background-color: #F6F6F6;
+  width: 100%;
+  margin: auto;
+  padding: 5px;
+  border-top: 1px solid #4BC6DF;
+  margin-top: 12px;
+  height: 70px; }
+
+.sixth-story-text {
+  font-size: 12px;
+  color: #5C5C5C;
+  display: inline-block;
+  width: 90%;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: -18px; }
+
+.seventh-story-container {
+  background-color: #F6F6F6;
+  width: 100%;
+  margin: auto;
+  padding: 5px;
+  border-top: 1px solid #4BC6DF;
+  margin-top: 12px;
+  height: 70px; }
+
+.seventh-story-text {
+  font-size: 12px;
+  color: #5C5C5C;
+  display: inline-block;
+  width: 90%;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: -18px; }
+
+.eighth-story-container {
+  background-color: #F6F6F6;
+  width: 100%;
+  margin: auto;
+  padding: 5px;
+  border-top: 1px solid #4BC6DF;
+  margin-top: 12px;
+  height: 70px; }
+
+.eighth-story-text {
+  font-size: 12px;
+  color: #5C5C5C;
+  display: inline-block;
+  width: 90%;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: -18px; }
+
+.main-column {
+  width: 100%;
+  height: 100px; }
+
+/* Web Fonts -------------------- */
+
+/*# sourceMappingURL=application.css.map */
