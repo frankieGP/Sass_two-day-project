@@ -17,3 +17,46 @@
   margin-left: $margin-left;
   margin-top: $margin-top;
 }
+
+
+@mixin no-img-story-text ($f-size, $f-color, $display, $text-width, $position, $margin-left, $margin-top) {
+  font-size: $f-size;
+  color: $f-color;
+  display: $display;
+  width: $text-width;
+  position: $position;
+  margin-left: $margin-left;
+  margin-top: $margin-top;
+
+}
+
+@mixin more-topics-container ($width, $height, $br-top, $pad-left) {
+  width: $width;
+  height: $height;
+  border-top: $br-top;
+  padding-left: $pad-left;
+}
+
+
+//////////BREAK POINT MIXINS///////////
+
+@mixin mq($break) {
+  @if $break == "small" {
+    @media (min-width: $brkpoint-sm) and (max-width: $brkpoint-md) {
+      @content;
+    }
+  }
+  @else if $break == "medium" {
+    @media (min-width: $brkpoint-md +1){
+      @content;
+    }
+  }
+  @else if $break =="large" {
+    @media (min-width: $brkpoint-lg) {
+      @content;
+    }
+  }
+  @else {
+    @error "Whoops! No value could be retrieved for `#{$break}`"
+  }
+}
